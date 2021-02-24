@@ -1,17 +1,6 @@
 <template>
-  <div class="text-center mt-10">
-    <p class="font-hairline">fontの太さ</p>
-    <p class="font-thin">fontの太さ</p>
-    <p class="font-light">fontの太さ</p>
-    <p class="font-normal">fontの太さ</p>
-    <p class="font-medium">fontの太さ</p>
-    <p class="font-semibold">fontの太さ</p>
-    <p class="font-bold">fontの太さ</p>
-    <p class="font-extrabold">fontの太さ</p>
-    <p class="font-black">fontの太さ</p>
-  </div>
-
-  <div class="hello">
+  <img class="mx-auto" src="../../assets/images/logo.png" alt="logo">
+  <div class="text-center">
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br />
@@ -66,7 +55,7 @@
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "Home",
   props: {
     msg: String,
   },
